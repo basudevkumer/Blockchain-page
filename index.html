@@ -7,7 +7,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
-    <link href="./output.css" rel="stylesheet" />
+
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/input.css" />
   </head>
   <body>
     <!-- ****************************************************************************************
@@ -115,7 +117,7 @@
             ></div>
             <figure class="">
               <img
-                src="./images/image10.jpg"
+                src="./src/images/image10.jpg"
                 alt="bannarImages"
                 class="z-20 min-w-[700px] min-h-[650px] bg-[#C4C4C4] object-cover rounded opacity-95"
               />
@@ -127,7 +129,7 @@
               technology. Designed for maximum security.
             </p>
             <button
-              class="bg-gradient-to-l to-[#FFFFFF]/30 via-[#ffffff]/25 h-fit p-[1px] rounded-[13px]"
+              class="bg-gradient-to-l to-[#FFFFFF]/30 via-[#ffffff]/25 h-fit p-[1px] rounded-[13px] cursor-pointer"
             >
               <span
                 class="py-3 px-[30px] bg-[#1e1e1e] inline-block bg-gradient-to-t from-[#FFFFFF]/0 to-[#FFFFFF]/12 rounded-[13px] text-base/[30px] text-[#ffffffa1] font-normal"
@@ -164,12 +166,15 @@
           </div>
           <div class="">
             <button
-              class="bg-gradient-to-l to-[#FFFFFF]/30 via-[#ffffff]/25 h-fit p-[2.5px] rounded-[13px]"
+              class="bg-gradient-to-l to-[#FFFFFF]/30 via-[#ffffff]/25 h-fit p-[2.5px] rounded-[13px] cursor-pointer"
             >
               <span
                 class="py-3 px-[30px] bg-[#1e1e1e] inline-block bg-gradient-to-t from-[#FFFFFF]/0 to-[#FFFFFF]/12 rounded-[13px] text-2xl/[40px] text-[#ffffffa1] font-light w-[250px] text-start"
               >
-                Smart Contract Creation <span class="text-xl text-[#ffffffa1] pl-13"><i class="fa-solid fa-arrow-right"></i></span>
+                Smart Contract Creation
+                <span class="text-xl text-[#ffffffa1] pl-13"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></span>
               </span>
             </button>
           </div>
@@ -186,26 +191,29 @@
     <section>
       <div class="container py-10 grid grid-cols-3 gap-x-[55px] mt-11">
         <div
-          class="p-[2px] bg-gradient-to-l from-[FFFFFF]/5 to-[#FFFFFF]/30 z-[-1] rounded-[8px]"
+          class="p-[2px] bg-gradient-to-l from-[#FFFFFF]/5 to-[#FFFFFF]/30 rounded-[8px]"
         >
           <div class="bg-[#1e1e1e] rounded-[8px]">
             <div
-              class="bg-gradient-to-t from-[FFFFFF]/0 to-[#FFFFFF]/5 z-10 rounded-[8px] py-[45px] flex flex-col items-center"
+              class="bg-gradient-to-t from-[#FFFFFF]/0 to-[#FFFFFF]/5 rounded-[8px] py-[45px] flex flex-col items-center"
             >
               <figure>
-                <img src="./images/Icon1.png" alt="cardIcon" />
+                <img src="./src/images/Icon1.png" alt="cardIcon" />
               </figure>
+
               <h5 class="text-[28px] text-[#ffffffa1] font-light py-[51px]">
                 Crypto Wallet
               </h5>
+
               <p
-                class="text-base/[30px] font-normal w-[328px] mx-auto text-center text-[#ffffffa1]"
+                class="text-base/[30px] w-[328px] mx-auto text-center text-[#ffffffa1]"
               >
                 Seamless, secure crypto wallet solutions for storing, sending,
                 and managing digital assets.
               </p>
+
               <button
-                class="cursor-pointer text-base/[30px] mt-[60px] text-[#ffffffa1]"
+                class="mt-[60px] text-base/[30px] text-[#ffffffa1] cursor-pointer hover:text-white transition"
               >
                 Learn More
               </button>
@@ -213,25 +221,29 @@
           </div>
         </div>
         <div
-          class="p-[2px] bg-gradient-to-l from-[FFFFFF]/5 to-[#FFFFFF]/30 z-[-1] rounded-[8px] relative translate-y-[-50px]"
+          class="p-[2px] bg-gradient-to-l from-[#FFFFFF]/5 to-[#FFFFFF]/30 rounded-[8px] -translate-y-12"
         >
           <div class="bg-[#1e1e1e] rounded-[8px]">
             <div
-              class="bg-gradient-to-t from-[FFFFFF]/0 to-[#FFFFFF]/5 z-10 rounded-[8px] py-[45px] flex flex-col items-center"
+              class="bg-gradient-to-t from-[#FFFFFF]/0 to-[#FFFFFF]/5 rounded-[8px] py-[45px] flex flex-col items-center"
             >
               <figure>
-                <img src="./images/Icon1.png" alt="cardIcon" />
+                <img src="./src/images/Icon1.png" alt="cardIcon" />
               </figure>
-              <h5 class="text-[28px] text-[#FFFFFF] font-light py-[51px]">
+
+              <h5 class="text-[28px] text-[#ffffffa1] font-light py-[51px]">
                 Decentralized App
               </h5>
+
               <p
-                class="text-base/[30px] font-normal w-[328px] mx-auto text-center text-[#ffffffa1]"
+                class="text-base/[30px] w-[328px] mx-auto text-center text-[#ffffffa1]"
               >
-                SFrom concept to deployment, we create high-performance dApps tailored for finance and, gaming
+                From concept to deployment, we create high-performance dApps
+                tailored for finance and, gaming
               </p>
+
               <button
-                class="cursor-pointer text-base/[30px] mt-[60px] text-[#ffffff]"
+                class="mt-[60px] text-base/[30px] text-[#ffffffa1] cursor-pointer hover:text-white transition"
               >
                 Learn More
               </button>
@@ -239,25 +251,29 @@
           </div>
         </div>
         <div
-          class="p-[2px] bg-gradient-to-l from-[FFFFFF]/5 to-[#FFFFFF]/30 z-[-1] rounded-[8px]"
+          class="p-[2px] bg-gradient-to-l from-[#FFFFFF]/5 to-[#FFFFFF]/30 rounded-[8px]"
         >
           <div class="bg-[#1e1e1e] rounded-[8px]">
             <div
-              class="bg-gradient-to-t from-[FFFFFF]/0 to-[#FFFFFF]/5 z-10 rounded-[8px] py-[45px] flex flex-col items-center"
+              class="bg-gradient-to-t from-[#FFFFFF]/0 to-[#FFFFFF]/5 rounded-[8px] py-[45px] flex flex-col items-center"
             >
               <figure>
-                <img src="./images/Icon1.png" alt="cardIcon" />
+                <img src="./src/images/Icon1.png" alt="cardIcon" />
               </figure>
+
               <h5 class="text-[28px] text-[#ffffffa1] font-light py-[51px]">
-               NFT Marketplace
+                NFT Marketplace
               </h5>
+
               <p
-                class="text-base/[30px] font-normal w-[328px] mx-auto text-center text-[#FFFFFF]"
+                class="text-base/[30px] w-[328px] mx-auto text-center text-[#ffffffa1]"
               >
-            Launch your own next-gen marketplace for NFTs with end-to-end support, from minting to trading.
+                Launch your own next-gen marketplace for NFTs with end-to-end
+                support, from minting to trading.
               </p>
+
               <button
-                class="cursor-pointer text-base/[30px] mt-[60px] text-[#ffffffa1]"
+                class="mt-[60px] text-base/[30px] text-[#ffffffa1] cursor-pointer hover:text-white transition"
               >
                 Learn More
               </button>
@@ -339,7 +355,7 @@
             </h6>
             <div class="flex flex-col py-[121px]">
               <p
-                class="flex items-center gap-x-3 text-base font-normal/[30px] text-[#FFFFFF]"
+                class="flex items-center gap-x-3 text-base font-normal/[30px] text-[#FFFFFF] "
               >
                 <span
                   class="inline-block w-2 h-2 bg-[#FFFFFF] rounded-full"
@@ -367,7 +383,7 @@
               ></div>
               <figure class="">
                 <img
-                  src="./images/image7.png"
+                  src="./src/images/image7.png"
                   alt="bannarImages"
                   class="z-20 min-h-[533px] bg-[#C4C4C4] object-cover rounded"
                 />
@@ -388,17 +404,17 @@
         <h2 class="text-[64px]/[99px] text-[#FFFFFF] font-light w-[773px]">
           The Ultimate Blockchain Ecosystem
         </h2>
-        <div class="grid grid-cols-5 gap-x-[70px] mt-[138px] relative">
+        <div class="grid grid-cols-5 gap-x-[70px] mt-[138px] items-center relative">
           <div class="col-span-3">
             <figure>
               <img
-                src="./images/ecosystem.png"
+                src="./src/images/ecosystem.png"
                 alt="ecosystemImg"
-                class="object-cover"
+                class="object-cover "
               />
             </figure>
             <div
-              class="flex items-center gap-x-4 absolute bottom-[230px] left-[-75px] -rotate-90"
+              class="flex items-center gap-x-4 absolute bottom-[63px] left-[-75px] -rotate-90"
             >
               <div
                 class="w-[53px] rounded-full h-1 bg-gradient-to-l from-[#ffffff]/100 to-[#FFFFFF]/0"
@@ -413,7 +429,7 @@
               March 3, 2025
             </p>
             <h5
-              class="text-[28px]/[49px] font-normal text-[#FFFFFF] pt-[30px] pb-[65px]"
+              class="text-[28px]/[49px] font-normal text-[#FFFFFF] pt-[10px] pb-[20px]"
             >
               How Hyper is Shaping a Trustless Economy
             </h5>
@@ -422,24 +438,24 @@
               new era of digital innovation. . .
             </p>
             <button
-              class="cursor-pointer text-base/[30px] mt-[56px] mb-[120px] text-[#ffffff]"
+              class="cursor-pointer text-base/[30px] mt-[20px] mb-[50px] text-[#ffffff]"
             >
               Learn More
             </button>
 
             <div class="flex justify-between">
               <button
-                class="px-5 border border-[#FFFFFF] rounded-[15px] font-normal text-base/[40px] text-[#ffffff]"
+                class="px-5 border border-[#FFFFFF] rounded-[15px] font-normal text-base/[40px] text-[#ffffff] cursor-pointer"
               >
                 Smart
               </button>
               <button
-                class="px-5 border border-[#FFFFFF] rounded-[15px] font-normal text-base/[40px] text-[#ffffff]"
+                class="px-5 border border-[#FFFFFF] rounded-[15px] font-normal text-base/[40px] text-[#ffffff] cursor-pointer"
               >
                 Contract
               </button>
               <button
-                class="px-5 border border-[#FFFFFF] rounded-[15px] font-normal text-base/[40px] text-[#ffffff]"
+                class="px-5 border border-[#FFFFFF] rounded-[15px] font-normal text-base/[40px] text-[#ffffff] cursor-pointer"
               >
                 Creation
               </button>
@@ -512,13 +528,12 @@
               >
                 <div>
                   <p class="text-[#ffffffa1] font-normal text-base/[30px]">
-                    Hyper completely transformed how we handle high-volume
-                    transactions. Their speed, security, and scalability
+                    We needed a blockchain solution that could keep up with our global growth.
                   </p>
                   <p class="pt-[52px] text-[#FFFFFF] text-6/[30px] font-normal">
-                    Daniel R
+                    Sophia L
                     <span class="text-[#ffffffa1] font-normal text-base/[30px]"
-                      >\ CTO at FinTechCore</span
+                      > \ Founder of NovaChain</span
                     >
                   </p>
                 </div>
@@ -537,13 +552,12 @@
               >
                 <div>
                   <p class="text-[#ffffffa1] font-normal text-base/[30px]">
-                    Hyper completely transformed how we handle high-volume
-                    transactions. Their speed, security, and scalability
+                   Hyper is everything we were looking for in a decentralized platform.
                   </p>
                   <p class="pt-[52px] text-[#FFFFFF] text-6/[30px] font-normal">
-                    Daniel R
+                    Mark T 
                     <span class="text-[#ffffffa1] font-normal text-base/[30px]"
-                      >\ CTO at FinTechCore</span
+                      >\ CEO of BlockWorks Studio</span
                     >
                   </p>
                 </div>
@@ -562,13 +576,12 @@
               >
                 <div>
                   <p class="text-[#ffffffa1] font-normal text-base/[30px]">
-                    Hyper completely transformed how we handle high-volume
-                    transactions. Their speed, security, and scalability
+                  Thanks to Hyper, we launched our NFT marketplace with zero downtime.
                   </p>
                   <p class="pt-[52px] text-[#FFFFFF] text-6/[30px] font-normal">
-                    Daniel R
+                    Emily S
                     <span class="text-[#ffffffa1] font-normal text-base/[30px]"
-                      >\ CTO at FinTechCore</span
+                      >\ Product Lead at Artify Labs</span
                     >
                   </p>
                 </div>
@@ -639,8 +652,8 @@
           <div class="col-span-2">
             <figure>
               <img
-                src="./images/image6.avif"
-                alt=""
+                src="./src/images/image6.avif"
+                alt="image6"
                 class="h-[486px] w-full object-cover rounded"
               />
             </figure>
@@ -658,7 +671,7 @@
                 >
                   SDK Integration
                 </figcaption>
-                <img src="./images/circles.png" alt="cricles" class="" />
+                <img src="./src/images/circles.png" alt="cricles" class="" />
               </figure>
               <figure class="relative">
                 <figcaption
@@ -666,7 +679,7 @@
                 >
                   Blockchain API
                 </figcaption>
-                <img src="./images/circles.png" alt="cricles" class="" />
+                <img src="./src/images/circles.png" alt="cricles" class="" />
               </figure>
             </div>
           </div>
@@ -748,7 +761,7 @@
                 placeholder="Enter Your Email"
               />
               <button
-                class="bg-gradient-to-l to-[#FFFFFF]/30 via-[#ffffff]/25 h-fit p-[2.5px] rounded-[13px]"
+                class="bg-gradient-to-l to-[#FFFFFF]/30 via-[#ffffff]/25 h-fit p-[2.5px] rounded-[13px] cursor-pointer"
               >
                 <span
                   class="py-3 px-[30px] bg-[#1e1e1e] inline-block bg-gradient-to-t from-[#FFFFFF]/0 to-[#FFFFFF]/12 rounded-[13px] text-base/[30px] text-[#ffffff] font-normal"
