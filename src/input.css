@@ -10,7 +10,7 @@
 }
 
 .container {
-  @apply max-w-[1320px] mx-auto px-4 lg:px-0  ;
+  @apply max-w-[1320px] mx-auto px-4 lg:px-3  ;
 }
 
 .h {
