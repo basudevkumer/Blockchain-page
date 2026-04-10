@@ -1008,6 +1008,21 @@
       grid-column: span 3 / span 3;
     }
   }
+  .sm\:mt-5 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 5);
+    }
+  }
+  .sm\:mt-6 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 6);
+    }
+  }
+  .sm\:mt-7 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 7);
+    }
+  }
   .sm\:h-\[350px\] {
     @media (width >= 40rem) {
       height: 350px;
@@ -1106,6 +1121,26 @@
     @media (width >= 40rem) {
       font-size: var(--text-base);
       line-height: 30px;
+    }
+  }
+  .sm\:text-\[9px\] {
+    @media (width >= 40rem) {
+      font-size: 9px;
+    }
+  }
+  .sm\:text-\[90px\] {
+    @media (width >= 40rem) {
+      font-size: 90px;
+    }
+  }
+  .sm\:text-\[95px\] {
+    @media (width >= 40rem) {
+      font-size: 95px;
+    }
+  }
+  .sm\:text-\[98px\] {
+    @media (width >= 40rem) {
+      font-size: 98px;
     }
   }
   .sm\:text-\[100px\] {
