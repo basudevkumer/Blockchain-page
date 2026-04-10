@@ -1148,9 +1148,29 @@
       font-size: 100px;
     }
   }
+  .md\:mt-9 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 9);
+    }
+  }
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .md\:text-\[110px\] {
+    @media (width >= 48rem) {
+      font-size: 110px;
+    }
+  }
+  .md\:text-\[115px\] {
+    @media (width >= 48rem) {
+      font-size: 115px;
+    }
+  }
+  .md\:text-\[120px\] {
+    @media (width >= 48rem) {
+      font-size: 120px;
     }
   }
   .md\:text-\[140px\] {
