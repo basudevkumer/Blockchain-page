@@ -9,12 +9,30 @@
   }
 }
 
-.container{
-    @apply max-w-[1320px] mx-auto
+.container {
+  @apply max-w-[1320px] mx-auto px-4 lg:px-0;
 }
 
+.h {
+  /* color:  #ffffffa1, */
+  color: #ffffff06;
+}
 
-.h{
-    /* color:  #ffffffa1, */
-    color:  #ffffff06
+#mobile-menu {
+  display: none;
+}
+#mobile-menu.open {
+  display: flex;
+}
+#hamburger .bar {
+  transition: all 0.3s ease-in-out;
+}
+#hamburger.active .bar1 {
+  transform: translateY(8px) rotate(45deg);
+}
+#hamburger.active .bar2 {
+  opacity: 0;
+}
+#hamburger.active .bar3 {
+  transform: translateY(-8px) rotate(-45deg);
 }
